@@ -114,6 +114,12 @@
         
             
 <li >
+    <a href="../../elementos/carretera_general_lin/">carretera_general_lin</a>
+</li>
+
+        
+            
+<li >
     <a href="../../elementos/comunidad_autonoma_pol/">comunidad_autonoma_pol</a>
 </li>
 
@@ -132,6 +138,18 @@
         
             
 <li >
+    <a href="../../elementos/ferrocarril_lin/">ferrocarril_lin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../elementos/hidrografia_lin/">hidrografia_lin</a>
+</li>
+
+        
+            
+<li >
     <a href="../../elementos/linea_limite_lin/">linea_limite_lin</a>
 </li>
 
@@ -139,6 +157,24 @@
             
 <li >
     <a href="../../elementos/nombre_division_administrativa_pto/">nombre_division_administrativa_pto</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../elementos/nombre_hidrografia_pto/">nombre_hidrografia_pto</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../elementos/nombre_poblaciones_construcciones_pto/">nombre_poblaciones_construcciones_pto</a>
+</li>
+
+        
+            
+<li >
+    <a href="../../elementos/provincia_pol/">provincia_pol</a>
 </li>
 
         
@@ -313,7 +349,7 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#nivel-06">Nivel 06</a></li>
+        <li class="first-level active"><a href="#nivel-06">NIVEL 06</a></li>
             <li class="second-level"><a href="#cubierta-vegetal">CUBIERTA VEGETAL</a></li>
                 
                 <li class="third-level"><a href="#cubierta_vegetal_bosque_pol">cubierta_vegetal_bosque_pol</a></li>
@@ -321,6 +357,7 @@
                 
                 <li class="third-level"><a href="#comunidad_autonoma_pol">comunidad_autonoma_pol</a></li>
                 <li class="third-level"><a href="#linea_limite_lin">linea_limite_lin</a></li>
+                <li class="third-level"><a href="#provincia_pol">provincia_pol</a></li>
             <li class="second-level"><a href="#edificaciones-y-construcciones">EDIFICACIONES Y CONSTRUCCIONES</a></li>
                 
             <li class="second-level"><a href="#espacios-protegidos">ESPACIOS PROTEGIDOS</a></li>
@@ -328,9 +365,12 @@
                 <li class="third-level"><a href="#espacio_natural_protegido_pol">espacio_natural_protegido_pol</a></li>
             <li class="second-level"><a href="#hidrografia">HIDROGRAFÍA</a></li>
                 
+                <li class="third-level"><a href="#hidrografia_lin">hidrografia_lin</a></li>
             <li class="second-level"><a href="#nombres-geograficos">NOMBRES GEOGRÁFICOS</a></li>
                 
                 <li class="third-level"><a href="#nombre_division_administrativa_pto">nombre_division_administrativa_pto</a></li>
+                <li class="third-level"><a href="#nombre_hidrografia_pto">nombre_hidrografia_pto</a></li>
+                <li class="third-level"><a href="#nombre_poblaciones_construcciones_pto">nombre_poblaciones_construcciones_pto</a></li>
             <li class="second-level"><a href="#orografia">OROGRAFÍA</a></li>
                 
                 <li class="third-level"><a href="#tierra_firme_pol">tierra_firme_pol</a></li>
@@ -340,16 +380,18 @@
                 
                 <li class="third-level"><a href="#autopista_lin">autopista_lin</a></li>
                 <li class="third-level"><a href="#autovia_lin">autovia_lin</a></li>
+                <li class="third-level"><a href="#carretera_general_lin">carretera_general_lin</a></li>
+                <li class="third-level"><a href="#ferrocarril_lin">ferrocarril_lin</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h2 id="nivel-06">Nivel 06</h2>
+<h2 id="nivel-06">NIVEL 06</h2>
 <p><br /></p>
-<p>Escala 1:8.735.660</p>
+<p>Escala 1:4.367.830</p>
 <p><br /></p>
 <h3 id="cubierta-vegetal">CUBIERTA VEGETAL</h3>
-<h4 id="cubierta_vegetal_bosque_pol"><a href="../../elementos/cubierta_vegetal_bosque_pol">cubierta_vegetal_bosque_pol</a></h4>
+<h4 id="cubierta_vegetal_bosque_pol"><a href="../../elementos/cubierta_vegetal_bosque_pol"><strong>cubierta_vegetal_bosque_pol</strong></a></h4>
 <pre><code>`clase`= bosque_arbolado
 </code></pre>
 <p><br /></p>
@@ -358,7 +400,11 @@
 <pre><code>`clase`= comunidad_autonoma
 </code></pre>
 <h4 id="linea_limite_lin"><a href="../../elementos/linea_limite_lin"><strong>linea_limite_lin</strong></a></h4>
-<pre><code>`clase`= limite_autonomico
+<pre><code>`clase`= limite_autonomico  
+`clase`= limite_provincial
+</code></pre>
+<h4 id="provincia_pol"><a href="../../elementos/provincia_pol"><strong>provincia_pol</strong></a></h4>
+<pre><code>`clase`= provincia
 </code></pre>
 <p><br /></p>
 <h3 id="edificaciones-y-construcciones">EDIFICACIONES Y CONSTRUCCIONES</h3>
@@ -370,12 +416,24 @@
 </code></pre>
 <p><br /></p>
 <h3 id="hidrografia">HIDROGRAFÍA</h3>
+<h4 id="hidrografia_lin"><a href="../../elementos/hidrografia_lin"><strong>hidrografia_lin</strong></a></h4>
+<pre><code>`orden`= primero
+</code></pre>
 <p><br /></p>
 <h3 id="nombres-geograficos">NOMBRES GEOGRÁFICOS</h3>
 <h4 id="nombre_division_administrativa_pto"><a href="../../elementos/nombre_division_administrativa_pto"><strong>nombre_division_administrativa_pto</strong></a></h4>
 <pre><code>`clase`= nacion  
 `clase`= comunidad_autonoma  
-`clase`= ciudad_autonoma
+`clase`= ciudad_autonoma  
+`clase`= provincia
+</code></pre>
+<h4 id="nombre_hidrografia_pto"><a href="../../elementos/nombre_hidrografia_pto"><strong>nombre_hidrografia_pto</strong></a></h4>
+<pre><code>`clase`= mar  
+`clase`= isla
+</code></pre>
+<h4 id="nombre_poblaciones_construcciones_pto"><a href="../../elementos/nombre_poblaciones_construcciones_pto"><strong>nombre_poblaciones_construcciones_pto</strong></a></h4>
+<pre><code>`clase`= capital_estado  
+`clase`= capital_comunidad_autonoma_ciudad_autonoma
 </code></pre>
 <p><br /></p>
 <h3 id="orografia">OROGRAFÍA</h3>
@@ -393,6 +451,13 @@
 <h4 id="autovia_lin"><a href="../../elementos/autovia_lin"><strong>autovia_lin</strong></a></h4>
 <pre><code>`clase`= autovia  
 `clase`= autovia_enlace
+</code></pre>
+<h4 id="carretera_general_lin"><a href="../../elementos/carretera_general_lin"><strong>carretera_general_lin</strong></a></h4>
+<pre><code>`clase`= carretera  
+`clase`= carretera_enlace
+</code></pre>
+<h4 id="ferrocarril_lin"><a href="../../elementos/ferrocarril_lin"><strong>ferrocarril_lin</strong></a></h4>
+<pre><code>`clase`= tren
 </code></pre></div>
         
         

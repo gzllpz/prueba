@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>nombre_division_administrativa_pto - Mapa Base SCN</title>
+    <title>provincia_pol - Mapa Base SCN</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -155,8 +155,8 @@
 
         
             
-<li class="active">
-    <a href="./">nombre_division_administrativa_pto</a>
+<li >
+    <a href="../nombre_division_administrativa_pto/">nombre_division_administrativa_pto</a>
 </li>
 
         
@@ -173,8 +173,8 @@
 
         
             
-<li >
-    <a href="../provincia_pol/">provincia_pol</a>
+<li class="active">
+    <a href="./">provincia_pol</a>
 </li>
 
         
@@ -330,12 +330,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../linea_limite_lin/">
+                        <a rel="next" href="../nombre_poblaciones_construcciones_pto/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../nombre_hidrografia_pto/">
+                        <a rel="prev" href="../tierra_firme_pol/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -349,7 +349,7 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#nombre_division_administrativa_pto">nombre_division_administrativa_pto</a></li>
+        <li class="first-level active"><a href="#provincia_pol">provincia_pol</a></li>
             <li class="second-level"><a href="#geometria">Geometría:</a></li>
                 
             <li class="second-level"><a href="#atributos-y-dominios-de-valores">Atributos y dominios de valores:</a></li>
@@ -358,11 +358,11 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h2 id="nombre_division_administrativa_pto">nombre_division_administrativa_pto</h2>
+<h2 id="provincia_pol">provincia_pol</h2>
 <p><br /></p>
-<p>El elemento «nombre_división_Administrativa_pto» contiene las referencias puntuales de los nombres geográficos relativos a divisiones administrativas que se encuentran recogidos en el Nomenclátor Geográfico Básico de España (NGBE), mantenido por el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuido como Información Geográfica de Referencia por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>, así como los nombres geográficos oficiales producidos por las Comunidades Autónomas u otras administraciones públicas con competencias cartográficas.</p>
+<p>El elemento <em>provincia_pol</em> contiene la descripción geométrica de los polígonos que definen los territorios de las provincias, construidos a partir de las líneas límite que responden a la interpretación de los títulos jurídicos de delimitación, inscritos en el Registro Central de Cartografía (RCC) (Real Decreto 1545/2007). Esta información es distribuida oficialmente por el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>.   </p>
 <h4 id="geometria">Geometría:</h4>
-<p>Punto</p>
+<p>Polígono</p>
 <h4 id="atributos-y-dominios-de-valores">Atributos y dominios de valores:</h4>
 <table>
 <thead>
@@ -383,54 +383,6 @@
 <tr>
 <td></td>
 <td></td>
-<td>ambito_inferior_a_municipio</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>ciudad_autonomia</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>comarca_administrativa</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>comunidad_autonoma</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>isla_administrativa</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>jurisdiccion</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>municipio</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>nacion</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
 <td>provincia</td>
 <td></td>
 </tr>
@@ -438,13 +390,7 @@
 <td><code>nombre</code></td>
 <td>string</td>
 <td>[nombre]</td>
-<td>Nombre</td>
-</tr>
-<tr>
-<td><code>nombre_alt</code></td>
-<td>string</td>
-<td>[nombre_alternativo]</td>
-<td>Nombre alternativo</td>
+<td>Nombre oficial</td>
 </tr>
 <tr>
 <td><code>proveedor</code></td>
