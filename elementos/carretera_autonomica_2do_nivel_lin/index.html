@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>hidrografia_lin - Mapa Base SCN</title>
+    <title>carretera_autonomica_2do_nivel_lin - Mapa Base SCN</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -119,8 +119,8 @@
 
         
             
-<li >
-    <a href="../carretera_autonomica_2do_nivel_lin/">carretera_autonomica_2do_nivel_lin</a>
+<li class="active">
+    <a href="./">carretera_autonomica_2do_nivel_lin</a>
 </li>
 
         
@@ -155,8 +155,8 @@
 
         
             
-<li class="active">
-    <a href="./">hidrografia_lin</a>
+<li >
+    <a href="../hidrografia_lin/">hidrografia_lin</a>
 </li>
 
         
@@ -360,12 +360,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../ferrocarril_lin/">
+                        <a rel="next" href="../carretera_autonomica_1er_nivel_lin/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../hidrografia_pol/">
+                        <a rel="prev" href="../carretera_general_lin/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -379,7 +379,7 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#hidrografia_lin">hidrografia_lin</a></li>
+        <li class="first-level active"><a href="#carretera_autonomica_2do_nivel_lin">carretera_autonomica_2do_nivel_lin</a></li>
             <li class="second-level"><a href="#geometria">Geometría:</a></li>
                 
             <li class="second-level"><a href="#atributos-y-dominios-de-valores">Atributos y dominios de valores:</a></li>
@@ -388,9 +388,9 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h2 id="hidrografia_lin">hidrografia_lin</h2>
+<h2 id="carretera_autonomica_2do_nivel_lin">carretera_autonomica_2do_nivel_lin</h2>
 <p><br /></p>
-<p>El elemento «hidrografia_lin» comprende los objetos geográficos lineales de carácter natural y artificial que forman la red hidrográfica de España. Los objetos pueden provenir de la Información Geográfica de Referencia de Redes de Transporte (IGR-RT) que edita el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuye el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>, así como de la información geográfica de referencia producida por las Comunidades Autónomas u otras administraciones públicas con competencias cartográficas.</p>
+<p>El elemento «carretera_autonomica_2do_nivel_lin» incluye la información geográfica lineal de los tramos que componen la red autonómica de segundo nivel, así como sus enlaces. Dichos datos pueden proceder de la Información Geográfica de Referencia de Redes de Transporte (IGR-RT) que edita el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuye el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>, así como de la información geográfica de referencia producida por las Comunidades Autónomas u otras administraciones públicas con competencias cartográficas.</p>
 <h4 id="geometria">Geometría:</h4>
 <p>Línea</p>
 <h4 id="atributos-y-dominios-de-valores">Atributos y dominios de valores:</h4>
@@ -413,31 +413,13 @@
 <tr>
 <td></td>
 <td></td>
-<td>acequia</td>
+<td>carretera</td>
 <td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>canal</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>curso_natural</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>tranvia</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>tuberia</td>
+<td>carretera_enlace</td>
 <td></td>
 </tr>
 <tr>
@@ -447,76 +429,52 @@
 <td>Denominación</td>
 </tr>
 <tr>
-<td><code>orden</code></td>
-<td>string</td>
-<td></td>
-<td>Nivel jerárquico</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>primero</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>quinto_sexto</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>segundo</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>tercero_cuarto</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>otro</td>
-<td></td>
-</tr>
-<tr>
-<td><code>persistencia</code></td>
-<td>string</td>
-<td></td>
-<td>Persistencia</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>estacional</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>esporadico</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>permanente</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>otro</td>
-<td></td>
-</tr>
-<tr>
 <td><code>proveedor</code></td>
 <td>string</td>
 <td>[codigo_proveedor]</td>
 <td>Proveedor de la información (lista controlada)</td>
+</tr>
+<tr>
+<td><code>puente</code></td>
+<td>string</td>
+<td></td>
+<td>Puente (Sí/No)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>T</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>ref</code></td>
+<td>string</td>
+<td>[referencia]</td>
+<td>Referencia</td>
+</tr>
+<tr>
+<td><code>tunel</code></td>
+<td>string</td>
+<td></td>
+<td>Puente (Sí/No)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>T</td>
+<td>Sí</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F</td>
+<td>No</td>
 </tr>
 </tbody>
 </table></div>
