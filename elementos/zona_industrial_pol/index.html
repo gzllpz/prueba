@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../../img/favicon.ico">
 
     
-    <title>aerodromo_pto - Mapa Base SCN</title>
+    <title>zona_industrial_pol - Mapa Base SCN</title>
     
 
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -253,8 +253,8 @@
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../zona_industrial_pol/">zona_industrial_pol</a>
+<li class="active">
+    <a href="./">zona_industrial_pol</a>
 </li>
 
         
@@ -286,8 +286,8 @@
 
         
             
-<li class="active">
-    <a href="./">aerodromo_pto</a>
+<li >
+    <a href="../aerodromo_pto/">aerodromo_pto</a>
 </li>
 
         
@@ -543,12 +543,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../aerodromo_pol/">
+                        <a rel="next" href="../tierra_firme_pol/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../autopista_lin/">
+                        <a rel="prev" href="../zona_militar_pol/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -562,7 +562,7 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#aerodromo_pto">aerodromo_pto</a></li>
+        <li class="first-level active"><a href="#zona_industrial_pol">zona_industrial_pol</a></li>
             <li class="second-level"><a href="#geometria">Geometría:</a></li>
                 
             <li class="second-level"><a href="#atributos-y-dominios-de-valores">Atributos y dominios de valores:</a></li>
@@ -571,11 +571,11 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h2 id="aerodromo_pto">aerodromo_pto</h2>
+<h2 id="zona_industrial_pol">zona_industrial_pol</h2>
 <p><br /></p>
-<p>El elemento «aerodromo_pto» comprende los objetos geográficos puntuales relativos a las instalaciones y los servicios de aviación civil, militar y recreativa. Los datos pueden provenir de la Información Geográfica de Referencia de Redes de Transporte (IGR-RT) que edita el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuye el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>, así como de la información geográfica de referencia producida por las Comunidades Autónomas u otras administraciones públicas con competencias cartográficas.    </p>
+<p>El elemento «zona_industrial_pol» incluye los objetos geográficos poligonales que definen los perímetros de las zonas industriales independientemente de su categorización. Los datos pueden provenir de la información geográfica que produce el <a href="https://www.ign.es"><em>Instituto Geográfico Nacional (IGN)</em></a> y distribuye el <a href="https://www.cnig.es"><em>Centro Nacional de Información Geográfica (CNIG)</em></a>, así como de la información geográfica de referencia o temática editada por las Comunidades Autónomas u otras administraciones públicas con competencias cartográficas.  </p>
 <h4 id="geometria">Geometría:</h4>
-<p>Punto</p>
+<p>Polígono</p>
 <h4 id="atributos-y-dominios-de-valores">Atributos y dominios de valores:</h4>
 <table>
 <thead>
@@ -596,31 +596,19 @@
 <tr>
 <td></td>
 <td></td>
-<td>aerodromo</td>
+<td>area_industrial</td>
 <td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>aerodromo_helipuerto</td>
+<td>poligono_industrial</td>
 <td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>deportivo_recreativo</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>helipuerto</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>hidroaerodromo</td>
+<td>zona_industrial</td>
 <td></td>
 </tr>
 <tr>
@@ -634,36 +622,6 @@
 <td>string</td>
 <td>[codigo_proveedor]</td>
 <td>Proveedor de la información (lista controlada)</td>
-</tr>
-<tr>
-<td><code>ref</code></td>
-<td>string</td>
-<td>[designador]</td>
-<td>Referencia</td>
-</tr>
-<tr>
-<td><code>tipo</code></td>
-<td>string</td>
-<td></td>
-<td>Categoría</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>internacional</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>nacional</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>militar</td>
-<td></td>
 </tr>
 </tbody>
 </table></div>
